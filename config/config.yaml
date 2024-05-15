@@ -4,7 +4,7 @@ enable: true
 version: 11
 account:
   #登入账号只需要修改cookie就行了
-  cookie: ""
+  cookie: "cookie_token_v2=v2_tUTx7_t1SnnBPmVMciklc2oB-PaAxxjPKTrA6ZqxWvnVtO2GUup1Mdc6O0PBuemhEIuCxIcbPuSYhmsFvh6UgVoEToTZ8lIbd4nFGw-0R3ie6S0l_KADxMADt93256-QyMwpUjULHUIFFqY=.CAE=; account_mid_v2=0pcpkkq26n_mhy; account_id_v2=178431175; ltoken_v2=v2_juaWv5AWULnN_l7F44X3DOlvYpqoATbF6LDxNJJFwv0xhzyeCR76IKz2dPbTZodbCJTmWu4wiCMW0oVr5s0FKKwVnoqlJ8W48mJRCUzlMcY2IUY55zZFo1m3Sn0gtUACm-fk8-CmOXDoUG4=.CAE=; ltmid_v2=0pcpkkq26n_mhy; ltuid_v2=178431175; cookie_token=dkkn4071CSqyKZ0NcFIx7RxrDCoyg3p5k4JQIB2x; account_id=178431175; ltuid=178431175; account_mid_v2=0pcpkkq26n_mhy; account_id_v2=178431175; ltmid_v2=0pcpkkq26n_mhy; ltuid_v2=178431175; _MHYUUID=9f7e8e65-3f68-4972-9e2d-e74dfb119e9c; DEVICEFP_SEED_ID=0300843552327d62; DEVICEFP_SEED_TIME=1715760949935; DEVICEFP=38d7fa5075561; login_uid=178431175; login_ticket=fnIaNw0aB0gwigabmGRgu8XtAkfgJFs145pIoGAQ"
   stuid: ""
   stoken: ""
   mid: ""
