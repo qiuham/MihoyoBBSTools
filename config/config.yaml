@@ -4,7 +4,7 @@ enable: true
 version: 11
 account:
   #登入账号只需要修改cookie就行了
-  cookie: "account_mid_v2=0pcpkkq26n_mhy; account_id_v2=178431175; ltmid_v2=0pcpkkq26n_mhy; ltuid_v2=178431175; cookie_token=dkkn4071CSqyKZ0NcFIx7RxrDCoyg3p5k4JQIB2x; account_id=178431175; ltoken=UqeWJHC3moHxl1IsIIOAhgF9m9JqljKwxsEHYDzR; ltuid=178431175"
+  cookie: "cookie_token=dkkn4071CSqyKZ0NcFIx7RxrDCoyg3p5k4JQIB2x; account_id=178431175; ltuid=178431175; account_mid_v2=0pcpkkq26n_mhy; account_id_v2=178431175; ltmid_v2=0pcpkkq26n_mhy; ltuid_v2=178431175; _MHYUUID=9f7e8e65-3f68-4972-9e2d-e74dfb119e9c; DEVICEFP_SEED_ID=0300843552327d62; DEVICEFP_SEED_TIME=1715760949935; DEVICEFP=38d7fa5075561; login_uid=178431175; login_ticket=fnIaNw0aB0gwigabmGRgu8XtAkfgJFs145pIoGAQ"
   stuid: ""
   stoken: ""
   mid: ""
