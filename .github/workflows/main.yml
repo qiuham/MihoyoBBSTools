@@ -1,0 +1,27 @@
+# 每天6:30执行
+# UTC 时间，北京时间需要 UTC+8
+name: Sign
+
+on:
+   workflow_dispatch:
+   schedule:
+       - cron: '10 0 * * *'
+
+jobs:
+  Sign:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout codes
+        uses: actions/checkout@v2
+      - name: Set python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12.3
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Start Sign
+        env:
+          cookie: ${{ secrets.cookie }}
+        run: python main.py
