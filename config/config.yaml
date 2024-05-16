@@ -4,7 +4,7 @@ enable: true
 version: 11
 account:
   #登入账号只需要修改cookie就行了
-  cookie: "cookie_token_v2=v2_tUTx7_t1SnnBPmVMciklc2oB-PaAxxjPKTrA6ZqxWvnVtO2GUup1Mdc6O0PBuemhEIuCxIcbPuSYhmsFvh6UgVoEToTZ8lIbd4nFGw-0R3ie6S0l_KADxMADt93256-QyMwpUjULHUIFFqY=.CAE=; account_mid_v2=0pcpkkq26n_mhy; account_id_v2=178431175; ltoken_v2=v2_juaWv5AWULnN_l7F44X3DOlvYpqoATbF6LDxNJJFwv0xhzyeCR76IKz2dPbTZodbCJTmWu4wiCMW0oVr5s0FKKwVnoqlJ8W48mJRCUzlMcY2IUY55zZFo1m3Sn0gtUACm-fk8-CmOXDoUG4=.CAE=; ltmid_v2=0pcpkkq26n_mhy; ltuid_v2=178431175; cookie_token=dkkn4071CSqyKZ0NcFIx7RxrDCoyg3p5k4JQIB2x; account_id=178431175; ltoken=UqeWJHC3moHxl1IsIIOAhgF9m9JqljKwxsEHYDzR; ltuid=178431175; cookie_token=dkkn4071CSqyKZ0NcFIx7RxrDCoyg3p5k4JQIB2x; account_id=178431175; ltuid=178431175; account_mid_v2=0pcpkkq26n_mhy; account_id_v2=178431175; ltmid_v2=0pcpkkq26n_mhy; ltuid_v2=178431175; _MHYUUID=9f7e8e65-3f68-4972-9e2d-e74dfb119e9c; DEVICEFP_SEED_ID=0300843552327d62; DEVICEFP_SEED_TIME=1715760949935; DEVICEFP=38d7fa5075561; login_uid=178431175; login_ticket=fnIaNw0aB0gwigabmGRgu8XtAkfgJFs145pIoGAQ"
+  cookie: "_MHYUUID=b85d2fd1-7bf8-48f6-b2eb-61b39b32a3f6; DEVICEFP_SEED_ID=d2a1d2fb5a88c11f; DEVICEFP_SEED_TIME=1715760401303; _ga=GA1.1.598635405.1715760402; DEVICEFP=38d7fa506d2ed; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=19a92c4058; cookie_token_v2=v2_tUTx7_t1SnnBPmVMciklc2oB-PaAxxjPKTrA6ZqxWvnVtO2GUup1Mdc6O0PBuemhEIuCxIcbPuSYhmsFvh6UgVoEToTZ8lIbd4nFGw-0R3ie6S0l_KADxMADt93256-QyMwpUjULHUIFFqY=.CAE=; account_mid_v2=0pcpkkq26n_mhy; account_id_v2=178431175; ltoken_v2=v2_juaWv5AWULnN_l7F44X3DOlvYpqoATbF6LDxNJJFwv0xhzyeCR76IKz2dPbTZodbCJTmWu4wiCMW0oVr5s0FKKwVnoqlJ8W48mJRCUzlMcY2IUY55zZFo1m3Sn0gtUACm-fk8-CmOXDoUG4=.CAE=; ltmid_v2=0pcpkkq26n_mhy; ltuid_v2=178431175; cookie_token=dkkn4071CSqyKZ0NcFIx7RxrDCoyg3p5k4JQIB2x; account_id=178431175; ltoken=UqeWJHC3moHxl1IsIIOAhgF9m9JqljKwxsEHYDzR; ltuid=178431175; acw_tc=1a0c39ca17158205747944765ecf9adada79f230ee9ebdbed858d51bd2df57; _ga_KS4J8TXSHQ=GS1.1.1715820841.2.1.1715820842.0.0.0"
   stuid: ""
   stoken: ""
   mid: ""
@@ -17,19 +17,19 @@ mihoyobbs:
   #控制bbs功能是否启用
   enable: false
   #社区签到
-  checkin: true
+  checkin: false
   #签到的社区列表 详情可以看config文件夹下面的readme
   checkin_list:
     - 5
     - 2
   #看帖
-  read: true
+  read: false
   #点赞帖子
-  like: true
+  like: false
   #取消点赞
-  cancel_like: true
+  cancel_like: false
   #分享帖子
-  share: true
+  share: false
 # 游戏签到
 games:
   #国服控制区域
